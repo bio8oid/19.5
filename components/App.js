@@ -61,8 +61,8 @@ handleSearch: function(searchingText) { // 1.
 
       return (
         <div style={styles}>
-        <h1>Wyszukiwarka GIFow!</h1>
-        <p>Znajdź gifa na <a href='http://giphy.com'>giphy</a>. Naciskaj enter, aby pobrać kolejne gify.</p>
+        <h1>GIF Browser</h1>
+        <p>Find GIF on<a href='http://giphy.com'>giphy</a>. Press ENTER to get another one.</p>
         <Search onSearch={this.handleSearch}/>
         <Gif
         loading={this.state.loading}
