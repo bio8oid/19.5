@@ -1,92 +1,34 @@
 body {
-	margin: 50px;
-	font-family: 'Ubuntu', sans-serif;
-	background-color: rgb(213, 179, 12)
-}
+		margin: 50px;
+		font-family: 'Ubuntu', sans-serif;
+		background: rgb(222, 177, 16);
+	}
 
-p{
-	padding: 10px;
-}
+	h1 {
+		font-weight: 800;
+		font-size: 100px;
+		line-height: 120px;
+		text-align: center;
+		background: -webkit-linear-gradient(153deg, #913be2 0%, #2d8c9c 95%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		margin: 50px;
+		font-family: 'Fredoka One', cursive;
+		}
 
-button {
-	width: 150px;
-  height: 40px;
-  border-radius: 5px;
-  border: 2px solid #90CAF9;
-  background-color: #FFFDE7;
-  font-weight: 400;
-  color: black;
-  font-size: 15px;
-  text-align: center;
-  cursor: pointer;	
-  margin: 20px;
-}
+		p {
+			margin: 25px;
+		}
 
-input {
-	margin: 20px;
-	border: 2px solid #90CAF9;
-	padding: 5px;
-	border-radius: 3px;
-}
+		input {
+			border-radius: 10px;
+			height: 30px;
+			border: 2px solid #0d5461;
+			margin: 25px;
+			text-align: center;
+			padding: 10px;
+		}
 
-.contactImage {
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	float: left;
-	margin: 20px;
-}
-
-.contactLabel {
-	background: #FFF;
-	border: 1px solid #90CAF9;
-	width: 60%;
-	border-radius: 3px;
-	margin-left: 150px;
-	padding: 5px;
-}
-
-.contactEmail {
-	margin-left: 150px;
-}
-
-.app {
-	background: #fff;
-}
-
-.contactItem {
-	min-width: 500px;
-	background: #E0F7FA;
-	margin: 10px auto;
-	padding: 20px;
-	border-radius: 10px;
-	border: 1px solid #90CAF9;
-}
-
-.contactsList {
-	border-radius: 2px;
-	margin: 0 auto;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	flex-wrap: wrap;
-}
-
-.contactForm {
-	background: #E3F2FD;
-	border-radius: 10px;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	border: 1px solid #90CAF9;
-	margin: 10px;
-}
-
+		img {
+			border-radius: 25px;
+		}
